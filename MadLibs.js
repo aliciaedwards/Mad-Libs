@@ -20,7 +20,7 @@ alert('All done. Ready for the message?');
 
 let sentence = "<p>There was a " + adjective;
 
-sentence += ' UX/UI designer who wanted to learn Front-End Development to ' + verb;
+sentence += ' UI/UX designer who wanted to learn Front-End Development to ' + verb;
 
 sentence += ' the ' + noun + '.</p>';
 
