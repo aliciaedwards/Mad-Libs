@@ -1,0 +1,25 @@
+body {
+    background-color: #fff8e8;
+}
+
+p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+    text-align: center;
+}
+
+.beginning {
+ font-family: 'Amatic SC', cursive;
+ font-size: 10em;
+ text-align: center;
+
+}
+
+.containter_top {
+ background-color: #fff8e8;
+}
+
+#results {
+    position: relative;
+    margin-left: 50%;
+}
