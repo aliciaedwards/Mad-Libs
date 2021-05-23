@@ -2,24 +2,34 @@ body {
     background-color: #fff8e8;
 }
 
-p {
-    font-family: 'Amatic SC', cursive;
-    font-size: 5em;
-    text-align: center;
-}
-
 .beginning {
  font-family: 'Amatic SC', cursive;
- font-size: 10em;
+ font-size: 100pt;
  text-align: center;
 
 }
 
 .containter_top {
  background-color: #fff8e8;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
 }
 
 #results {
-    position: relative;
-    margin-left: 50%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.flex_container {
+    background-color: white;
+    height: 800px;
+    width: 1000px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  align-items: center;
 }

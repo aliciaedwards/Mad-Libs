@@ -1,29 +1,35 @@
-let questions = 3;
+function madLib(sentence) {
+    // document.getElementById("p").innerHTML = (sentence)
 
-let questionsLeft = ' [' + questions + ' questions left]';
+    let questions = 3;
 
-let adjective = prompt('Please type an adjective' + questionsLeft);
+    let questionsLeft = ' [' + questions + ' questions left]';
 
-questions -= 1;
+    let adjective = prompt('Please type an adjective' + questionsLeft);
 
-questionsLeft = ' [' + questions + ' questions left]';
+    questions -= 1;
 
-let verb = prompt('Please type a verb that does not end in -ing ' + questionsLeft);
+    questionsLeft = ' [' + questions + ' questions left]';
 
-questions -= 1;
+    let verb = prompt('Please type a verb that does not end in -ing ' + questionsLeft);
 
-questionsLeft = ' [' + questions + ' questions left]';
+    let noun = prompt('Please type a noun' + questionsLeft);
 
-let noun = prompt('Please type a noun' + questionsLeft);
+    alert('All done. Ready for the message?');
 
-alert('All done. Ready for the message?');
+    let sentence = "<p>There was a " + adjective;
 
-let sentence = "<p>There was a " + adjective;
+    sentence += ' UI/UX designer who wanted to learn Front-End Development to ' + verb;
 
-sentence += ' UI/UX designer who wanted to learn Front-End Development to ' + verb;
+    sentence += ' the ' + noun + '.</p>';
 
-sentence += ' the ' + noun + '.</p>';
+    document.write(sentence)
+    // document.getElementById('results').innerHTML = (sentence);
+}
 
-document.write(sentence);
-//document.getElementById('results').innerHTML = sentence;
-//document.createElement(sentence);
+
+
+// document.write(sentence);
+// document.getElementById('results').innerHTML = (sentence);
+// document.getElementsByClassName("flex_container").innerHtml = sentence;
+// document.createElement(sentence);
